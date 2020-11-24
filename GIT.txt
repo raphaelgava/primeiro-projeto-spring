@@ -133,3 +133,10 @@ remote:      https://github.com/raphaelgava/primeiro_projeto_spring/pull/new/mas
 remote:
 To https://github.com/raphaelgava/primeiro_projeto_spring
  * [new branch]      master -> master
+
+
+
+#caso não tenha o projeto ainda
+C:\Users\rapha\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\> git clone https://github.com/raphaelgava/primeiro_projeto_spring.git
+
+
