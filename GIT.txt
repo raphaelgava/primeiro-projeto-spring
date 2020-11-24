@@ -1,0 +1,26 @@
+rapha@Raphael-Note MINGW64 ~/Documents/workspace-spring-tool-suite-4-4.8.1.RELEASE/MeuPrimei
+roProjeto
+$ git init
+Initialized empty Git repository in C:/Users/rapha/Documents/workspace-spring-tool-suite-4-4
+.8.1.RELEASE/MeuPrimeiroProjeto/.git/
+
+rapha@Raphael-Note MINGW64 ~/Documents/workspace-spring-tool-suite-4-4.8.1.RELEASE/MeuPrimei
+roProjeto (master)
+$ git remote add origin https://github.com/raphaelgava/primeiro_projeto_spring
+
+C:\Users\rapha\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\MeuPrimeiroProjeto>git
+pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/raphaelgava/primeiro_projeto_spring
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+
+############ESTAVA DANDO ERRADO POIS O NOME DA BRANCH TAVA ERRADO
+C:\Users\rapha\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\MeuPrimeiroProjeto>git
+ pull origin master    <--------- não é master é main!
+fatal: couldn't find remote ref master
+
